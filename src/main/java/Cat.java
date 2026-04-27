@@ -35,7 +35,7 @@ class Cat {
 	@Override
 	public Cat clone() {
 		Cat cat = new Cat(this.name, this.age);
-		return cat;
+		return cat; 
 	}
 
 }
